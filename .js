@@ -71,3 +71,75 @@
 // }).catch( (error)=>{
 //    console.log(error)
 // })
+
+// prototype
+
+// const obj={
+//     name:"sachin",
+//     getName:function(){
+//         return this.name
+//     }
+// }
+// // console.log(obj)
+
+// const obj1={
+//     rollno:11,
+//     class:1,
+//     name:obj,
+//    // name:"manish"
+// }
+// console.log(obj1.name.getName(),obj1.rollno)
+
+// const myObject = {
+//     city: 'Madrid',
+//     greet() {
+//       console.log(`Greetings from ${this.city}`);
+//     }
+//   }
+  
+//   myObject.greet(); // Greetings from Madrid
+  
+// const hello = {
+//     name:'sachin',
+//     hello1() {
+//        console.log(`hello ${this.name}`)
+//     }
+// }
+// hello.hello1()
+
+// constructor function
+// function Person (name,age) {
+//     this.name = name,
+//     this.age = age
+// }
+
+// // creating objects
+// const person1 = new Person("sachin",25);
+// const person2 = new Person("manish",27);
+// console.log(person1.name, person1.age,"\n",person2.name, person2.age);
+
+
+// hoisting
+
+// sum(5,2)
+// function sum(a,b)
+// {
+//     add=a+b
+//     console.log(add)
+// }
+
+// console.log(num); // Returns 'undefined' from hoisted var declaration (not 6)
+// var num; // Declaration
+// num = 6; // Initialization
+// console.log(num); // Returns 6 after the line with initialization is executed.
+
+
+// console.log(num); // Returns 'undefined' from hoisted var declaration (not 6)
+// var num = 6; // Initialization and declaration.
+// console.log(num); // Returns 6 after the line with initialization is executed.
+
+// a = 'Cran'; // Initialize a
+// b = 'berry'; // Initialize b
+
+// console.log(a + " " + b); // 'Cranberry'
+
